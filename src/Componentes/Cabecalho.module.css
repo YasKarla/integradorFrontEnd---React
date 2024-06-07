@@ -1,0 +1,12 @@
+.conteiner{
+    background-color: var(--verde-claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner p {
+    font-size: 3.5rem;
+    color: white;
+    margin: 0 16px;
+}

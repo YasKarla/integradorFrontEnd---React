@@ -1,0 +1,56 @@
+
+
+.titulo {
+    margin-top: 2%;
+    margin-left: 35%;
+    color:black;
+    font-size:30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    background-color: var(--verde-claro);
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 2%;
+    align-items: center;
+    margin-left: 20%;
+    width: 50%;
+}
+
+.campo {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 78%; 
+}
+.campoCheckbox {
+    display: flex; 
+    align-items: center; /* Alinha verticalmente os itens */
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 78%;
+}
+
+.campoCheckbox input {
+    margin-right: 10%;
+    margin-top: 24%;
+}
+.mensagemErro{
+    margin-top: 10px;
+}

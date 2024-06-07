@@ -1,0 +1,60 @@
+.conteiner {
+    display: flex;
+    height: auto;  
+    align-items: center;
+}
+
+.titulo {
+    color: black;
+    font-size: 30px;
+    margin-top: -700px;
+    margin-left: 100px;
+}
+
+.formulario {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: var(--verde-claro);
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.campo {
+    margin-bottom: -5px;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%; /* Adiciona largura completa */
+}
+
+.campoCheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%; /* Adiciona largura completa */
+}
+
+.campoCheckbox span {
+    margin-right: 10px; /* Adiciona espaço entre o texto e o checkbox */
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    align-self: flex-start; /* Move o botão para a esquerda */
+    margin-top: 30px;
+}
+
+.mensagem {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: -6px;
+    margin-bottom: 1rem;  
+    color: red; 
+}

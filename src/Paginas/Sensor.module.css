@@ -1,0 +1,63 @@
+.conteiner {
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    align-self: center;
+}
+
+table {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border-collapse: collapse; /* Colapsa as bordas da tabela */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+}
+
+th, td {
+    border: 1px solid var(--cinza-escuro); /* Define as bordas para células */
+    padding: 8px; /* Adiciona padding às células */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+tr {
+    border: 2px solid var(--cinza-tabela); /* Define as bordas para as linhas */
+    background-color: white; /* Define o fundo branco para todas as linhas */
+}
+
+th {
+    color:black; /* Cor do texto dos cabeçalhos */
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde escuro ao passar o mouse */
+}
+
+
